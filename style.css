@@ -213,3 +213,255 @@ background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
         top: 0;
       }
     }
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* 
+.kart-content-2
+{
+    background: hsla(354, 99%, 55%, 1);
+
+    background: linear-gradient(0deg, hsla(354, 99%, 55%, 0.9) 0%, hsla(0, 71%, 34%, 1) 100%);
+    
+    background: -moz-linear-gradient(0deg, hsla(354, 99%, 55%, 0.9) 0%, hsla(0, 71%, 34%, 1) 100%);
+    
+    background: -webkit-linear-gradient(0deg, hsla(354, 99%, 55%, 0.9) 0%, hsla(0, 71%, 34%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FE1930", endColorstr="#941919", GradientType=1 );
+} */
+
+/* animation */
+
+@keyframes slideInFromLeft
+{
+   0%{
+      transform: translateX(-100%);
+   }
+
+   100% 
+   {
+      transform: translateX(0);
+   }
+}
+
+
+@keyframes slideInFromRight
+{
+   0%{
+      transform: translateX(100%);
+   }
+
+   100% 
+   {
+      transform: translateX(0);
+   }
+}
+
+@keyframes slideInFromTop
+{
+   0%{
+      transform: translateY(-100%);
+   }
+
+   100% 
+   {
+      transform: translateX(0);
+   }
+}
+
+@keyframes slideInFromBottom
+{
+   0%{
+      transform: translateY(100%);
+   }
+
+   100% 
+   {
+      transform: translateX(0);
+   }
+}
+
+
+
+
+.kart-detail h2
+{
+    color: rgb(197, 2, 2);
+    /* animation-name: slideInFromTop;
+    animation-duration: 0.8s; */
+}
+
+/* .kart-detail p
+{
+    
+    animation-name: slideInFromTop;
+    animation-duration: 0.8s;
+} */
+
+.kart-content-1 img
+    {
+      animation-name: slideInFromLeft;
+      animation-duration: 1.2s;
+      
+    }
+
+
+
+.kart-content-2
+{
+    background: black;
+    padding-top: 15px;
+    padding-bottom: 65px;
+}
+
+.kart-content-2 img 
+{
+  animation-name: slideInFromRight;
+  animation-duration: 1.2s;
+}
+
+.kart-content-2 h2
+{
+    color: rgb(197, 2, 2);
+}
+
+.kart-content-3 h2
+{
+    color: rgb(197, 2, 2);
+}
+
+.kart-content-3 img
+    {
+      margin-left: 15px; 
+         margin-top: 2px;
+         animation-name: slideInFromBottom;
+         animation-duration: 1.5s;
+      
+    }
+
+
+
+
+
+/* safety rules */
+.flag-green i 
+{
+    color: rgb(23, 201, 0);
+}
+
+.flag-yellow i 
+{
+    color: rgb(236, 201, 3);
+}
+
+.flag-blue i 
+{
+    color: rgb(0, 25, 253);
+}
+
+.flag-red i 
+{
+    color: rgb(247, 0, 0);
+}
+
+.flag-black i 
+{
+    color: rgb(0, 0, 0);
+}
+
+
+@media (max-width:564px){
+    .kart-detail 
+    {
+      padding-left: 8px;
+    }
+
+    .kart-detail h2
+    {
+      padding-top: 10px;
+      padding-bottom: 8px;
+    }
+
+    .kart-content-1 img
+    {
+      padding-left: 30px;
+      margin-bottom: 10px;
+      
+    }
+
+    
+    .kart-content-1 h4
+    {
+      margin-top: 30px;
+      padding-left: 10px;
+    }
+
+    .kart-content-1 h6
+    {
+      padding-left: 10px;
+    }
+
+    .kart-content-2 img
+    {
+      margin-top: 30px;
+      padding-left: 2px;
+    }
+
+    .kart-content-2 h2
+    {
+      margin-left: 10px;    
+      
+    }
+
+    .kart-content-2 h4
+    {
+      margin-top: 30px;
+      padding-left: 10px;
+    }
+
+    .kart-content-2 h6
+    {
+      padding-left: 10px;
+    }
+
+    .kart-content-3 img
+    {
+      margin-left: 10px;    
+      
+    }
+
+    .kart-content-3 h2
+    {
+      margin-left: 10px;    
+      
+    }
+
+    .kart-content-3 h4
+    {
+      margin-top: 30px;
+      padding-left: 10px;
+    }
+
+    .kart-content-3 li
+    {
+      padding-left: 10px;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
